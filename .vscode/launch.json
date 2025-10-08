@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Run current Python file",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${file}",
       "cwd": "${fileDirname}",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Run with args (prompt)",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${file}",
       "cwd": "${fileDirname}",
